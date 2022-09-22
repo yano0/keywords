@@ -5,7 +5,7 @@ import BasicTabs from "./Tabpanel";
 const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/keywords" element={<BasicTabs />} />
+      <Route path="/reponame" element={<BasicTabs />} />
     </Routes>
   </BrowserRouter>
 );
