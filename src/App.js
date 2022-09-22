@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BasicTabs from "./Tabpanel";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="process.env.PUBLIC_URL">
     <Routes>
-      <Route path="/reponame" element={<BasicTabs />} />
+      <Route exact path="/" element={<BasicTabs />} />
     </Routes>
   </BrowserRouter>
 );
