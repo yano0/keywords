@@ -71,7 +71,7 @@ export default function BasicTabs() {
                 sx={{
                     color: "#fff",
                     pt: 5,
-                    backgroundColor: "#23cdcd",
+                    backgroundColor: "#ffa600",
                 }}
             >
                 <Typography
@@ -178,7 +178,7 @@ export default function BasicTabs() {
             <Box
                 sx={{
                     width: "100%",
-                    backgroundColor: "#23cdcd",
+                    backgroundColor: "#ffa600",
                     bottom: 0,
                     position: "fixed",
                     color: "#fff",
@@ -191,7 +191,7 @@ export default function BasicTabs() {
                     color="secondary"
                     marginRight={10}
                 >
-                    Github
+                    GitHub
                 </Link>
 
                 <Link

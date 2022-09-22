@@ -3,11 +3,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BasicTabs from "./Tabpanel";
 
 const App = () => (
-  <BrowserRouter basename="process.env.PUBLIC_URL">
-    <Routes>
-      <Route exact path="/" element={<BasicTabs />} />
-    </Routes>
-  </BrowserRouter>
+  <div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/keywords/" element={<BasicTabs />} />
+      </Routes>
+    </BrowserRouter>
+  </div>
 );
 
 export default App;
